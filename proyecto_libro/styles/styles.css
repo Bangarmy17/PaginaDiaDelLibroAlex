@@ -1,0 +1,160 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+}
+body {
+  background-image: url("../img/panel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  /*Tengo un problema con el fondo y es que si minimizo la página
+   no encuentro la manera de que se ajuste a toda la pantalla*/
+}
+h1 {
+  font-size: 45px;
+  font-family: "VespasiansFlorials", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* Estilos para el cuerpo */
+section {
+  margin: 20px 0;
+}
+
+.contenedor {
+  font-family: "Mightyful", sans-serif;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  font-family: "Asian Guy", sans-serif;
+  font-size: 30px;
+  color: rgb(195, 0, 255);
+  background-color: black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 0 5px #ddd;
+}
+/*estilos botones para funcion de cambiar de color*/
+button{
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.verde{
+  background-color: green;
+}
+button.azul{
+  background-color: blue;
+}
+button.naranja{
+  background-color: orange;
+}
+
+/*--------------------------------------------------*/
+/* movidas para el slider o carrusel*/
+#slider {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  overflow: hidden;
+}
+#slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#botonCarrusel {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  font-size: 30px;
+  margin: 10px 5px;
+  text-align: center;
+}
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
+/*--------------------------------------------------*/
+/*Movidas para el reloj*/
+.reloj {
+  color: #ffffff;
+  font-size: 75px;
+  font-family: Arial;
+  letter-spacing: 15px;
+  text-align: center;
+  background-color: #000000;
+  border: 10px solid rgb(138, 3, 179);
+  border-radius: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ol {
+  list-style: decimal inside;
+  margin: 0;
+  padding: 0 0 0 40px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el menú de navegación */
+a {
+  color: rgb(195, 0, 255);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: blueviolet;
+  color: #ddd;
+}
+a:visited {
+  color: #561265;
+}
+/* Footer */
+footer {
+  text-align: left;
+  color: rgb(251, 240, 255);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(72, 71, 71);
+  background-color: #333;
+}
+
+.footer-info {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.contenedor-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 70%;
+  padding: 10px 20px;
+}

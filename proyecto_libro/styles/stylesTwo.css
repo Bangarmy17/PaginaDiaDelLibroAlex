@@ -1,0 +1,112 @@
+/* Fondo */
+body {
+    background-image: url('../img/panel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Header */
+  header {
+    background-color:black;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ddd;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 45px;
+    font-family: 'VespasiansFlorials', sans-serif;
+    color: white;
+  }
+  
+  /* Section */
+  section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  article {
+    flex-basis: 70%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid gray;
+  }
+
+  .contenedor {
+    font-family: 'Mightyful', sans-serif;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
+    flex: 1 1 300px;
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  img {
+    width: 30%;
+  }
+  
+  /* Links */
+  a {
+    display: block;
+    margin: 20px;
+    color:#7e10a9;
+    font-size: 24px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: left;
+    color: rgb(251, 240, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(72, 71, 71);
+    background-color: #333;
+  }
+
+  .footer-info {
+    background-color:black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
+  }
+  
+  
+  .contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70%;
+    padding: 10px 20px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .botonInicio {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ddd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 195%;
+  }
+  
+  
+  
